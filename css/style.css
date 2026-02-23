@@ -127,10 +127,9 @@ body {
   align-items: center;
   justify-content: center;
   gap: 8px;
-
   font-weight: 500;
   font-size: var(--font-size-16);
-  padding: 12px 24px;
+  padding: 12px 30px;
   border-radius: var(--radius-sm);
   border: 1px solid transparent;
   cursor: pointer;
@@ -257,7 +256,7 @@ body {
   padding: 12px 30px;
   font-size: var(--font-size-16);
   font-weight: 500;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   color: var(--color-white);
   text-decoration: none;
   overflow: hidden;
@@ -855,17 +854,21 @@ ul.quick_links li a:hover{
     }
   .input-group-custom {
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 10px;
+    background-color: unset;
+    border: none;
   }
 
   .newsletter-input {
     width: 100%;
-    text-align: center;
+    text-align: left;
+    margin-bottom: 20px;
+    border-radius: 10px;
   }
 
   .newsletter-btn {
     width: 100%;
-    border-radius: 0 0 20px 20px;
+    border-radius: 10px;
   }
 
 }
